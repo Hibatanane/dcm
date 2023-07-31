@@ -1,0 +1,4 @@
+<div class="form-group">
+  <p *ngIf="erreurConnexion" class="text-danger">{{ erreurConnexion }}</p>
+  <!-- Autres éléments du formulaire -->
+</div>
